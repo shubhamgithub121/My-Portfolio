@@ -5,14 +5,15 @@ import { SERVICES } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
+import { shubham } from "../assets";
 
+// Service Card Component
 type ServiceCardProps = {
   index: number;
   title: string;
   icon: string;
 };
 
-// Service Card
 const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
   return (
     <Tilt
@@ -38,7 +39,7 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
   );
 };
 
-// About
+// About Section
 export const About = () => {
   return (
     <SectionWrapper idName="about">
@@ -49,19 +50,28 @@ export const About = () => {
           <h2 className={styles.sectionHeadText}>Overview.</h2>
         </motion.div>
 
-        {/* Body */}
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
-        </motion.p>
+        {/* Overview with Image and Text Side-by-Side */}
+        <div className="mt-10 flex flex-col-reverse md:flex-`row items-center gap-10">
+          {/* Text */}
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className="text-secondary text-[17px] max-w-3xl leading-[30px]"
+          >
+            Hi, I’m Shubham Goswami, a third-year B.Tech student at DTU and the GDSC Lead at DTU. I’m a passionate Full-Stack Web Developer, skilled in React.js, Next.js, Node.js, and PostgreSQL. I’m currently working as an SDE Intern at Turflo, and have previously interned at Noise, collaborated with startups like Lensroom, and taught Physics at Unacademy. I’m also a national-level karate athlete and a silver medalist in a state math olympiad. I love building impactful tech products and leading innovative projects. Let’s connect and create something amazing!
+          </motion.p>
 
-        {/* Service Card */}
+          {/* Image */}
+           <div className="text-white flex flex-col md:flex-row items-center justify-center gap-10 p-5">
+      {/* Left: Image */}
+      <img
+        src={shubham}
+        alt="Shubham Goswami"
+        className="w-[250px] h-[250px] rounded-xl object-cover shadow-lg"
+      />
+        </div>
+        </div>
+
+        {/* Services */}
         <div className="mt-20 flex flex-wrap gap-10">
           {SERVICES.map((service, i) => (
             <ServiceCard key={service.title} index={i} {...service} />

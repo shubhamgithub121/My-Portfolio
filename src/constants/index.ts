@@ -5,6 +5,7 @@ import {
   mobile,
   backend,
   creator,
+  youtube,
   web,
   javascript,
   typescript,
@@ -18,10 +19,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  instagram,
+  shubham,
+
+  turflo,
+  unacademy,
+  lensroom,
+  gdsc,
+  
   threejs,
   project1,
   project2,
@@ -68,17 +73,20 @@ export const SERVICES = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
+ 
+  
   {
     title: "Content Creator",
     icon: creator,
+  },
+  {
+    title: "Youtuber",
+    icon: youtube,
+  },
+ 
+  {
+    title: "GDSC Lead",
+    icon: gdsc,
   },
 ] as const;
 
@@ -141,83 +149,87 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Fullstack Developer Intern",
+    company_name: "Turflo",
+    icon: turflo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2025 - Aug 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained full-stack web applications using React.js, Node.js, and related technologies.",
+      "Worked closely with designers and backend teams to build scalable and user-friendly features.",
+      "Integrated REST APIs and optimized frontend performance for responsiveness and speed.",
+      "Collaborated in Agile sprints and contributed to code reviews for continuous improvement."
     ],
   },
+ 
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "GDSC Lead",
+    company_name: "Google Developer Student Clubs, DTU",
+    icon: gdsc,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sept 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+       "Selected as the first GDSC Lead from DTU while in 3rd year — a rare and prestigious selection.",
+    "Led the official Google Developer Student Club at DTU with a team of 270+ active members.",
+    "Organized 20+ impactful technical events, workshops, and hackathons on Web, ML, and Cloud technologies.",
+    "Facilitated DTU’s participation in the Google Solution Challenge and guided multiple teams through it.",
+    "Built a strong core team culture focused on innovation, collaboration, and real-world impact.",
+    "Collaborated with Google teams and industry experts to provide mentorship and exposure to students."
     ],
   },
+   
+  {
+    title: "Frontend Developer Intern",
+    company_name: "Lensroom",
+    icon: lensroom,
+    iconBg: "#383E56",
+    date: "jan 2024 - Aug 2024",
+    points: [
+      "Worked on the company’s web platform to enhance UI/UX using React.js and Tailwind CSS.",
+      "Integrated APIs and developed responsive components for mobile and desktop views.",
+      "Collaborated with the design and backend teams to ensure seamless user experience."
+    ],
+  },
+  {
+    title: "Physics Educator",
+    company_name: "Unacademy",
+    icon: unacademy,
+    iconBg: "#383E56",
+    date: "Nov 2023 - Jan 2024",
+    points: [
+      "Taught Physics to JEE aspirants via structured online classes and live sessions.",
+      "Created video lessons and practice materials that enhanced student understanding and engagement.",
+      "Utilized digital tools to track student progress and provided personalized feedback."
+    ],
+  },
+
 ] as const;
+
 
 // Testimonials
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "As the GDG President, Shubham brought unmatched energy and leadership. His ability to build a thriving tech community while staying grounded in innovation is truly rare.",
+    name: "Nikita Gandhi",
+    designation: "Regional Head",
+    company: "GDG India",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Shubham isn’t just a developer—he’s a visionary. The website he built for our launch was not only pixel-perfect, but also optimized for speed and scalability.",
+    name: "Ganesh",
+    designation: "Regional Manager",
+    company: "Google",
     image: user2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "During his internship, Shubham consistently impressed us with his frontend expertise and quick problem-solving skills. His React components were clean, scalable, and production-ready.",
+    name: "Daksh",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Turflo",
     image: user3,
   },
 ] as const;
@@ -225,9 +237,9 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Tomato",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Tomato is a full-stack food delivery web app inspired by Zomato, built with React, Node.js, and MongoDB, featuring user authentication, restaurant listings, cart, and order management.",
     tags: [
       {
         name: "react",
@@ -244,41 +256,41 @@ export const PROJECTS = [
     ],
     image: project1,
     source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    live_site_link: "https://tomato-app2.vercel.app/",
   },
   {
-    name: "Golds Gym",
+    name: "Prithvi",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "A plastic waste recycling platform built with HTML, CSS, and JavaScript, enabling users to schedule pickups and track their contributions toward a cleaner environment.",
     tags: [
       {
-        name: "react",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "javacript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: project2,
     source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    live_site_link: "https://shubhamgithub121.github.io/GDSC/index.html",
   },
   {
-    name: "Shoppy",
+    name: "3d-Animated website",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "An interactive and visually striking portfolio built using HTML, CSS, and JavaScript. Features scroll-triggered animations, smooth transitions, and modern UI principles to ensure an engaging user experience across devices.",
     tags: [
       {
-        name: "react",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "syncfusion",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
@@ -288,15 +300,15 @@ export const PROJECTS = [
     ],
     image: project3,
     source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+    live_site_link: "https://candid-kitten-36fe92.netlify.app/",
   },
   {
-    name: "TikTok Clone",
+    name: "AI Expense Tracker",
     description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+      "A smart personal finance management tool developed using React.js and Node.js with PostgreSQL for backend data storage. Users can add income, log categorized expenses, and view real-time balance updates through interactive graphs and stats.",
     tags: [
       {
-        name: "nextjs",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -310,15 +322,15 @@ export const PROJECTS = [
     ],
     image: project4,
     source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    live_site_link: "https://expense-tracker-brown-delta.vercel.app/"
   },
   {
-    name: "Cryptoverse",
+    name: "OhMyCv",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "AI-powered Resume Builder that generates personalized, professional resumes in seconds using modern design and intelligent content suggestions. Built with a focus on automation and user experience.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
@@ -326,29 +338,29 @@ export const PROJECTS = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "vue.js",
         color: "pink-text-gradient",
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    source_code_link: "https://github.com/shubhamgithub121/AI-Resume-Builder",
+    live_site_link: "https://ohmycv.app/editor/1748191478930",
   },
   {
-    name: "Travel Advisor",
+    name: "GDG DTU Official Web Platform",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "Built the GDG DTU official website using modern web technologies with a focus on performance, UI/UX, and scalability. Collaborated with a dynamic team under my leadership as GDSC President.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "material-ui",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
       },
     ],
@@ -362,21 +374,23 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "https://youtube.com/@shubhamgoswami_?si=STRRWZA51QKykOt2",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/shubham-goswami-44761725a/",
   },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
-  },
+  
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/shubhamgithub121",
+  },
+
+  {
+    name: "Instagram",
+    icon: instagram,
+    link: "https://www.instagram.com/shubhamm.123_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
 ] as const;

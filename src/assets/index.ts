@@ -10,6 +10,7 @@ import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import preview from "./preview.png";
 import web from "./web.png";
+import youtube from "./youtube.avif";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -27,8 +28,13 @@ import typescript from "./tech/typescript.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import turflo from "./company/turflo.png";
 import tesla from "./company/tesla.png";
+import starbucks from "./company/starbucks.png"; // ✅ Assume file exists
+import unacademy from "./company/unacademy.png";
+import lensroom from "./company/lensroom.png" ;
+import gdsc from "./company/gdsc.png"
+// ✅ Assume file exists
 
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
@@ -45,6 +51,8 @@ import github from "./socials/github.svg";
 import linkedin from "./socials/linkedin.svg";
 import twitter from "./socials/twitter.svg";
 import youtube from "./socials/youtube.svg";
+import instagram from "./socials/instagram.jpg";
+import shubham from "./shubham.jpg";
 
 export {
   backend,
@@ -59,8 +67,10 @@ export {
   css,
   docker,
   figma,
+  instagram,
   git,
   html,
+  shubham,
   javascript,
   mongodb,
   nodejs,
@@ -71,8 +81,12 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
+  turflo,
+  unacademy,
+  gdsc,
+  lensroom,
   tesla,
+  starbucks,
   project1,
   project2,
   project3,
