@@ -57,7 +57,7 @@ export const About = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className="text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Hi, I’m Shubham Goswami, a third-year B.Tech student at DTU and the GDSC Lead at DTU. I’m a passionate Full-Stack Web Developer, skilled in React.js, Next.js, Node.js, and PostgreSQL. I’m currently working as an SDE Intern at Turflo, and have previously interned at Noise, collaborated with startups like Lensroom, and taught Physics at Unacademy. I’m also a national-level karate athlete and a silver medalist in a state math olympiad. I love building impactful tech products and leading innovative projects. Let’s connect and create something amazing!
+            <h1>Hi, I’m Shubham Goswami, a third-year B.Tech student at DTU and the GDSC Lead at DTU. I’m a passionate Full-Stack Web Developer, skilled in React.js, Next.js, Node.js, and PostgreSQL. I’m currently working as an SDE Intern at Turflo, and have previously interned at Noise, collaborated with startups like Lensroom, and taught Physics at Unacademy. I’m also a national-level karate athlete and a silver medalist in a state math olympiad. I love building impactful tech products and leading innovative projects. Let’s connect and create something amazing!</h1>
           </motion.p>
 
           {/* Image */}

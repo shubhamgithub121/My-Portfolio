@@ -239,7 +239,7 @@ export const PROJECTS = [
   {
     name: "Tomato",
     description:
-      "Tomato is a full-stack food delivery web app inspired by Zomato, built with React, Node.js, and MongoDB, featuring user authentication, restaurant listings, cart, and order management.",
+      "Tomato is a full-stack food delivery web application inspired by Zomato. Built using React, Node.js, and MongoDB, it includes features like user authentication, restaurant listings, cart, and complete order management system designed for seamless user experience.",
     tags: [
       {
         name: "react",
@@ -261,7 +261,7 @@ export const PROJECTS = [
   {
     name: "Google Developer Group DTU- Official WebApp",
     description:
-      "Built the GDG DTU official website using modern web technologies with a focus on performance, UI/UX, and scalability. Collaborated with a dynamic team under my leadership as GDSC President.",
+      "Built the official GDG DTU website using modern tech stack focusing on performance, UI/UX, and scalability. Led development as GDSC President and collaborated with a dynamic team to build a highly responsive, modular, and maintainable platform.",
     tags: [
       {
         name: "react.js",
@@ -283,7 +283,7 @@ export const PROJECTS = [
   {
     name: "Prithvi",
     description:
-      "A plastic waste recycling platform built with HTML, CSS, and JavaScript, enabling users to schedule pickups and track their contributions toward a cleaner environment.",
+      "Prithvi is a plastic recycling platform offering door-to-door pickup and scheduling of plastic waste. Built with HTML, JavaScript, and CSS, it provides users with a dashboard to track their plastic donations, view total contributions, and monitor earnings — promoting sustainability through data.",
     tags: [
       {
         name: "Html",
