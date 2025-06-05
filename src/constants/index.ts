@@ -255,8 +255,30 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
+    source_code_link: "https://github.com/shubhamgithub121/Tomato-App2",
     live_site_link: "https://tomato-app2.vercel.app/",
+  },
+  {
+    name: "Google Developer Group DTU- Official WebApp",
+    description:
+      "Built the GDG DTU official website using modern web technologies with a focus on performance, UI/UX, and scalability. Collaborated with a dynamic team under my leadership as GDSC President.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project6,
+    source_code_link: "https://github.com/shubhamgithub121?tab=repositories",
+    live_site_link: "https://gdgdtu.vercel.app/",
   },
   {
     name: "Prithvi",
@@ -277,7 +299,7 @@ export const PROJECTS = [
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
+    source_code_link: "https://github.com/shubhamgithub121/Prithvi",
     live_site_link: "https://shubhamgithub121.github.io/GDSC/index.html",
   },
   {
@@ -299,7 +321,7 @@ export const PROJECTS = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
+    source_code_link: "https://github.com/shubhamgithub121/animated-website",
     live_site_link: "https://candid-kitten-36fe92.netlify.app/",
   },
   {
@@ -321,7 +343,7 @@ export const PROJECTS = [
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
+    source_code_link: "https://github.com/shubhamgithub121/Expense-Tracker/tree/main/expense-tracker",
     live_site_link: "https://expense-tracker-brown-delta.vercel.app/"
   },
   {
@@ -346,28 +368,7 @@ export const PROJECTS = [
     source_code_link: "https://github.com/shubhamgithub121/AI-Resume-Builder",
     live_site_link: "https://ohmycv.app/editor/1748191478930",
   },
-  {
-    name: "GDG DTU Official Web Platform",
-    description:
-      "Built the GDG DTU official website using modern web technologies with a focus on performance, UI/UX, and scalability. Collaborated with a dynamic team under my leadership as GDSC President.",
-    tags: [
-      {
-        name: "react.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "PostgreSQL",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
-  },
+  
 ] as const;
 
 export const SOCIALS = [
